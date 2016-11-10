@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+main {
+  margin-top: 2%;
+  margin-bottom: 1em;
+}
+
+#app-title {
+  font-family: 'Wendy One', sans-serif;
+}
+
+.user-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.badge-on {
+  background-color: #8bc34a;
+}
+
+.badge-off {
+  background-color: #f44336;
+}
+
+.badge-gold {
+  background-color: #D9A441;
+}
+
+.badge-silver {
+  background-color: #CCC2C2;
+}
+.badge-bronze {
+  background-color: #965A38;
+}
+
+@media (min-width: $screen-sm-min) {
+  #table-container {
+    width: $screen-sm-min;
+  }
+}
