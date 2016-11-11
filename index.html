@@ -26,9 +26,113 @@
       <div clss="row" id="display-container">
 
         <div class="col-xs-12">
-          <h1 id="app-title" class="text-center">Free Code Camp Leaderboard</h1>
-          <div class="center-block table-responsive" id="table-container">
+          <h3 id="app-title" class="text-center">Joey's Recipe Box</h3>
+
+          <ul class="nav nav-pills" id="navbar">
+            <li class="active"><a data-toggle="pill" href="#my-recipes">My Recipes</a></li>
+            <li><a data-toggle="pill" href="#create-recipe">Create Recipe</a></li>
+            <li><a data-toggle="pill" href="#search">Search</a></li>
+            <li><a data-toggle="pill" href="#filters">Filters</a></li>
+          </ul>
+
+          <div class="tab-content col-xs-12 text-left jumbotron">
+            <hr>
+            <div id="my-recipes" class="tab-pane fade in active">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="recipe-img" src="image/recipe-sample-1.jpg" alt="Sweet potato curry">
+                  <div class="caption">
+                    <p>Sweet potato curry</p>
+                    <!-- <p>This vegan sweet potato curry is bursting with great flavors and very easy to make. For me, the perfect dish for a busy week night.</p>
+                    <p class="text-right">—Asako, translator</p> -->
+                    <p class="text-right"><a href="#" class="btn btn-danger" role="button"><i class="fa fa-trash-o"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-pencil"></i></a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="recipe-img" src="image/recipe-sample-2.jpg" alt="Deviled eggs">
+                  <div class="caption">
+                    <p>Deviled eggs</p>
+                    <!-- <p>This vegan sweet potato curry is bursting with great flavors and very easy to make. For me, the perfect dish for a busy week night.</p>
+                    <p class="text-right">—Asako, translator</p> -->
+                    <p class="text-right"><a href="#" class="btn btn-danger" role="button"><i class="fa fa-trash-o"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-pencil"></i></a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="recipe-img" src="image/recipe-sample-3.jpg" alt="butterbeer">
+                  <div class="caption">
+                    <p>Butterbeer</p>
+                    <!-- <p>This vegan sweet potato curry is bursting with great flavors and very easy to make. For me, the perfect dish for a busy week night.</p>
+                    <p class="text-right">—Asako, translator</p> -->
+                    <p class="text-right"><a href="#" class="btn btn-danger" role="button"><i class="fa fa-trash-o"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-pencil"></i></a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="recipe-img" src="image/recipe-sample-4.jpg" alt="Quick pasta alla carbonara">
+                  <div class="caption">
+                    <p>Quick pasta alla carbonara</p>
+                    <!-- <p>This vegan sweet potato curry is bursting with great flavors and very easy to make. For me, the perfect dish for a busy week night.</p>
+                    <p class="text-right">—Asako, translator</p> -->
+                    <p class="text-right"><a href="#" class="btn btn-danger" role="button"><i class="fa fa-trash-o"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-pencil"></i></a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="recipe-img" src="image/recipe-sample-5.jpg" alt="Orecchiette with rapini">
+                  <div class="caption">
+                    <p>Orecchiette with rapini</p>
+                    <!-- <p>This vegan sweet potato curry is bursting with great flavors and very easy to make. For me, the perfect dish for a busy week night.</p>
+                    <p class="text-right">—Asako, translator</p> -->
+                    <p class="text-right"><a href="#" class="btn btn-danger" role="button"><i class="fa fa-trash-o"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-pencil"></i></a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="recipe-img" src="image/recipe-sample-6.jpg" alt="Guilt-free tiramisu">
+                  <div class="caption">
+                    <p>Guilt-free tiramisu</p>
+                    <!-- <p>This vegan sweet potato curry is bursting with great flavors and very easy to make. For me, the perfect dish for a busy week night.</p>
+                    <p class="text-right">—Asako, translator</p> -->
+                    <p class="text-right"><a href="#" class="btn btn-danger" role="button"><i class="fa fa-trash-o"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-pencil"></i></a></p>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- End of "my-recipes" div -->
+
+
+            <div id="create-recipe" class="tab-pane fade">
+            </div>
+
+            <div id="search" class="tab-pane fade">
+              <!-- <div class="input-group col-sm-5">
+                <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Guilt-free tiramisu" aria-describedby="basic-addon1" autofocus="true">
+              </div> -->
+
+              <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->
+            </div>
+            <div id="filters" class="tab-pane fade">
+
+            </div>
           </div>
+
+
+
         </div>
 
       </div> <!-- End of "row" div -->
