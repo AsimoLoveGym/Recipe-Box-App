@@ -1,0 +1,10 @@
+<!-- views/index.html文件 -->
+<h1>Recipe List</h1>
+<!-- <p>
+{{recipes}}
+</p> -->
+{{#each recipes}}
+  <ol>
+    <li>{{recipe.label}}<img src={{recipe.image}}></li>
+  </ol>
+{{/each}}
